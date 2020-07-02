@@ -7,6 +7,9 @@ lint:
 referenceDocs:
   htmlTemplate: ./docs/index.html
   showConsole: true
+  layout:
+    scope: section
+  routingStrategy: browser
   theme:
     colors:
       primary:
