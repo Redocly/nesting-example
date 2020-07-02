@@ -1,6 +1,9 @@
 post:
   tags:
     - Echo
+  x-filters:
+    Color: green
+    Size: small
   summary: Echo test
   description: Receive the exact message you've sent
   operationId: echo

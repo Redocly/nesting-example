@@ -52,6 +52,9 @@ info:
 externalDocs:
   description: Find out how to create a GitHub repo for your OpenAPI definition.
   url: 'https://github.com/Rebilly/generator-openapi-repo'
+x-nesting:
+  - Color
+  - Size
 tags:
   - name: Echo
     description: Example echo operations

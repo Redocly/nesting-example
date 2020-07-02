@@ -5,6 +5,9 @@ parameters:
     schema:
       type: boolean
 get:
+  x-filters:
+    Color: green
+    Size: medium
   tags:
     - User
   summary: Get user by user name
@@ -43,6 +46,9 @@ get:
     '404':
       description: User not found
 put:
+  x-filters:
+    Color: red
+    Size: medium
   tags:
     - User
   summary: Updated user
